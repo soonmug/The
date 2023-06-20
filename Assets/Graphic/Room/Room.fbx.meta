@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: c036e440d64896448936ba1d78dc6562
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Black
+    second: {fileID: 2100000, guid: ec583bf0d18842945ae467b84d96623d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Book1
+    second: {fileID: 2100000, guid: 291b20ed2d415a84c959d68ff6a900b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Book2
+    second: {fileID: 2100000, guid: 599ce738a691afb44bcd9ef03759b151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Book3
+    second: {fileID: 2100000, guid: 5ded8746ea0c8484782a71c442a54ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Book4
+    second: {fileID: 2100000, guid: ad4d2ec7ad72f6942adb3090252deda7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Glass
+    second: {fileID: 2100000, guid: 569dc586bb8c7504f9a4673d18d07115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Glass_001
+    second: {fileID: 2100000, guid: cfa51af910ea7d646a02be72e44df507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Green
+    second: {fileID: 2100000, guid: 45f0991e302edd049a50a7b45a18ec39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Green.001
+    second: {fileID: 2100000, guid: 1c78b3a057946974e883619afbc444d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Green.002
+    second: {fileID: 2100000, guid: f2f9e1f7ba984e546be846aa2f9bdfd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Green.004
+    second: {fileID: 2100000, guid: 0ba8f9d66c365ec428498b526fa4b4e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Green.005
+    second: {fileID: 2100000, guid: c24724b243ddc4b498746c363c8b4b5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Light
+    second: {fileID: 2100000, guid: 87052231450da2d48871d55f60f545f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Metal
+    second: {fileID: 2100000, guid: 34a74099db4db234c94248ae120e818b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Metal.001
+    second: {fileID: 2100000, guid: e01846319c2243641ad0ff63212c9f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Puple
+    second: {fileID: 2100000, guid: 75d7ee13c385e45409178b31f6b69f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Puple.001
+    second: {fileID: 2100000, guid: 821e255ac69725e4491553a06ef581f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Puple.002
+    second: {fileID: 2100000, guid: ead410eac38741440861114de1dc7d22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Red
+    second: {fileID: 2100000, guid: 69aea182b69462d47833e0fc2c7bc35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Red_Light
+    second: {fileID: 2100000, guid: 6e53a2c3758b8ae48adac3fe8428c266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wall
+    second: {fileID: 2100000, guid: 340d70013875c7a438ce84b6367c3206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wall.001
+    second: {fileID: 2100000, guid: 48ebe32f1c95ef345ad41d6fe076fbde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Water
+    second: {fileID: 2100000, guid: 84c82409c686ad34ea9e7035037db003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Water.001
+    second: {fileID: 2100000, guid: 219842f0641dd0647967a5a43cdf41d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Whit
+    second: {fileID: 2100000, guid: df1ceaf5ff2ba1f49ab0be595ff7b322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood
+    second: {fileID: 2100000, guid: 46918c3ed81788f4da06bb16cad37aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.001
+    second: {fileID: 2100000, guid: 90fd44331bfeeec48b59b295aab193be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.002
+    second: {fileID: 2100000, guid: 2e1cc1aa6c5cdc14db153763489a3a93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.003
+    second: {fileID: 2100000, guid: 25818109d4dc4134daaddd96524e40a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.004
+    second: {fileID: 2100000, guid: bdfd3a7eeced32e46ab3f07771af4518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.005
+    second: {fileID: 2100000, guid: 3d5e223c11ef7d140afa2d90af9e115e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.006
+    second: {fileID: 2100000, guid: fae4de019bac2754d98af350b10c8d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Wood.007
+    second: {fileID: 2100000, guid: d44ae68c527c9dd43a061f4f0048554d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Yellow
+    second: {fileID: 2100000, guid: e7a9b7bd366ceb74ca093aadf46d8a79, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Texture_001
+    second: {fileID: 2800000, guid: 4e3a1fae6002d774980b166500f239ec, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
