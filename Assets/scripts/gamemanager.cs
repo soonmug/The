@@ -2,7 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gamemanager : MonoBehaviour
+public class GameManager:MonoBehaviour
 {
-   
+ public GameObject CoverImage;
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
 }
