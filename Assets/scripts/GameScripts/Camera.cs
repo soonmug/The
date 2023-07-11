@@ -7,6 +7,9 @@ public class Camera : MonoBehaviour
 {
     private Animator cameraAni;
     private Manager manager;
+
+    // 카메라애니메이션에 대한 스크립트
+    //화면전환 후 0.5초 뒤 상호작용가능한 오브젝트 터치 가능
    
     // Start is called before the first frame update
     void Start()
@@ -21,7 +24,9 @@ public class Camera : MonoBehaviour
         cameraAni.SetBool("All", true);
         cameraAni.SetBool("MinWall_002", false);
         cameraAni.SetBool("MinWall_001", false);
+        //카메라 애니메이터 제어
         manager.itemThuch = false;
+        //아이템 터치 불가능/가능에 대한 Bool
 
     }
     public void CameraDesk()
@@ -29,6 +34,7 @@ public class Camera : MonoBehaviour
         cameraAni.SetBool("Desk",true);
         cameraAni.SetBool("MinWall_001", false);
         Invoke("itemThuch", 0.5f);
+        //0.5초 뒤 터치 가능
     }
     public void CameraDeskUp()
     {
@@ -73,6 +79,7 @@ public class Camera : MonoBehaviour
         cameraAni.SetBool("All", false);
         Invoke("itemThuch", 0.5f);
     }
+    //아래는 아이템 터치에 관한 부분
     public void itemThuch()
     {
         manager.itemThuch = true;

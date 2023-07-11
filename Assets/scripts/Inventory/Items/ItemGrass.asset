@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 3
   itemName: ItemGrass
   value: 15
-  icon: {fileID: 21300000, guid: 0e18602834342fa44851fe6453cafa92, type: 3}
+  icon: {fileID: 21300000, guid: 8a78177f6c3d36d43afc40c1a2090ac4, type: 3}
