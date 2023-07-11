@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 6414530600056560806}
   - component: {fileID: 9142319139332712556}
   - component: {fileID: 7575511353340135846}
-  - component: {fileID: 7575511353340135841}
-  - component: {fileID: 7575511353340135847}
+  - component: {fileID: 939659401072741814}
   m_Layer: 6
   m_Name: Item_002
   m_TagString: Untagged
@@ -28,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7341138566203951545}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: 5.2800164, y: 2.806347, z: 0.41832384}
   m_LocalScale: {x: 870.4471, y: 870.4471, z: 870.4471}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &6414530600056560806
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -101,29 +100,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5859505246589164098, guid: 6d36027242c291f41838d2c6637d3615, type: 3}
---- !u!114 &7575511353340135841
-MonoBehaviour:
+--- !u!95 &939659401072741814
+Animator:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7341138566203951545}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f77dfdc41b26e14e8ecb970f3fb8aca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: 4320033ccb9f5d546a9cd6ccffa73f38, type: 2}
---- !u!114 &7575511353340135847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7341138566203951545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a055ac86a39f449b436e81762c306e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 4320033ccb9f5d546a9cd6ccffa73f38, type: 2}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc3927c9890756847b07d122bc2e2229, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
