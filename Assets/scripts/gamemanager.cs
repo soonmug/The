@@ -13,6 +13,14 @@ public class GameManager:MonoBehaviour
 
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.F5))
+        {
+            theSave.CallSave();
+        }
+
+          if(Input.GetKeyDown(KeyCode.F9))
+        {
+            theSave.CallLode();
+        }
     }
 }
