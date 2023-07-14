@@ -21,6 +21,7 @@ public class InventoryManager : MonoBehaviour
     {
         Items=_itemList;
     }
+
     private void Awake()
     {
         Instance = this;

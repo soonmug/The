@@ -6,9 +6,10 @@ public class GameManager:MonoBehaviour
 {
  public GameObject CoverImage;
 
+ private Save theSave;
     void Start()
     {
-        
+        theSave=FindObjectOfType<Save>();
     }
 
     void Update()
