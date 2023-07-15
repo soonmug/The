@@ -10,17 +10,6 @@ public class InventoryManager : MonoBehaviour
 
     public Transform ItemContent;
     public GameObject InventoryItem;
-    //플레이어가 가지고 있는 아이템 리스트를 저장하는 함수
-    public List<Item> SaveItem()
-    {
-        return Items;
-    }
-
-    //플레이어가 가지고있는 아이템 로드
-    public void LoadItem(List<Item>_itemList)
-    {
-        Items=_itemList;
-    }
 
     private void Awake()
     {

@@ -4,24 +4,29 @@ using UnityEngine;
 
 public class GameManager:MonoBehaviour
 {
- public GameObject CoverImage;
-
- private Save theSave;
+    string filePath="/SaveItem.dat";
+  
+    private  List<Item> items;
+   
+   
     void Start()
     {
-        theSave=FindObjectOfType<Save>();
+      items=new List<Item>();
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F5))
+
+        
+
+        if(Input.GetKeyDown(KeyCode.S))
         {
-            theSave.CallSave();
+           Save.SaveItem(items,filePath);
         }
 
-          if(Input.GetKeyDown(KeyCode.F9))
+          if(Input.GetKeyDown(KeyCode.L))
         {
-            theSave.CallLode();
+            items=Save.LoadItem(filePath);
         }
     }
 }
