@@ -6,27 +6,26 @@ public class GameManager:MonoBehaviour
 {
     string filePath="/SaveItem.dat";
   
-    private  List<Item> items;
-   
+     List<Item> loadItemList=InventoryManager.Items;
    
     void Start()
     {
-      items=new List<Item>();
+      
     }
 
     void Update()
     {
 
-        
-
         if(Input.GetKeyDown(KeyCode.S))
         {
-           Save.SaveItem(items,filePath);
+           Save.SaveItem(loadItemList,filePath);
         }
 
           if(Input.GetKeyDown(KeyCode.L))
         {
-            items=Save.LoadItem(filePath);
+            loadItemList=Save.LoadItem(filePath);
         }
     }
+      
+
 }

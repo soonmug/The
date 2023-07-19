@@ -18,22 +18,22 @@ public class Save
         file.Close();
     }
     
-     public static InventoryManager LoadItem(string filePath)
+     public static List<Item> LoadItem(string filePath)
     {
         if (File.Exists(filePath))
         {
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream file = new FileStream(filePath, FileMode.Open);
     
-            InventoryManager inventoryManager = formatter.Deserialize(file) as List<Item>;
+            List<Item> inventoryManager = formatter.Deserialize(file) as List<Item>;
     
             file.Close();
      
-        inventoryManager = new InventoryManager();
+             inventoryManager = new List<Item>();
 
         // itemList를 inventoryManager에 할당하는 로직
        
-        return items;
+        return inventoryManager;
         }
 
         else
