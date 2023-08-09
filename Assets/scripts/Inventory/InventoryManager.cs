@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
+[Serializable]
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
@@ -25,7 +27,7 @@ public class InventoryManager : MonoBehaviour
     {
         foreach(Transform item in ItemContent)
         {
-            //잘 모르겠음
+            //게임오브젝트 삭제
             Destroy(item.gameObject);
         }
         foreach (var item in Items)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 //아이템 정보를 담은 파일 생성가능
 //프로젝트 창>우클릭>Creat
